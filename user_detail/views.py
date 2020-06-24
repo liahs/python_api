@@ -5,7 +5,7 @@ from rest_framework.response import Response
 from .models import ActivityModel,UserDetail
 # Create your views here.
 
-class SimpleView(APIView):
+class UsersView(APIView):
     """ Test Api"""
     
     def get(self,request,format=None):
